@@ -25,5 +25,20 @@ var promise = promisifier.asyncMethodToPromise(request.get, "http://google.com",
 promise.then(console.log);
 ```
 
-### asyncMethodToPromiseWithArrayAsArgs()
+### asyncMethodToPromiseWithArrayAsArgs(method, args)
 
+Pass args as array.
+
+```javascript
+var promisifier = require("promisifier"),
+    request = require("request");
+
+var args = [
+    "http://google.com",
+    {}
+];
+
+var promise = promisifier.asyncMethodToPromise(request.get, args);
+
+promise.then(console.log);
+```
