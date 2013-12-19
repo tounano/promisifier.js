@@ -8,22 +8,22 @@
 
 ## Usage
 
-    ```javascript
-    var promisifier = require("promisifier");
-    ```
+```javascript
+var promisifier = require("promisifier");
+```
 
-    ### promisifier.asyncMethodToPromise(method,[arg1[, arg2[, ...]]])
+### promisifier.asyncMethodToPromise(method,[arg1[, arg2[, ...]]])
 
-    Promisify an Async function with arguments.
+Promisify an Async function with arguments.
 
-    ```javascript
-    var promisifier = require("promisifier"),
-        request = require("request);
+```javascript
+var promisifier = require("promisifier"),
+    request = require("request);
 
-    var promise = promisifier.asyncMethodToPromise(request.get, "http://google.com", options);
+var promise = promisifier.asyncMethodToPromise(request.get, "http://google.com", options);
 
-    promise.then(console.log);
-    ```
+promise.then(console.log);
+```
 
-    ### asyncMethodToPromiseWithArrayAsArgs()
+### asyncMethodToPromiseWithArrayAsArgs()
 
