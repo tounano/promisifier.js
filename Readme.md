@@ -18,7 +18,7 @@ Promisify an Async function with arguments.
 
 ```javascript
 var promisifier = require("promisifier"),
-    request = require("request);
+    request = require("request");
 
 var promise = promisifier.asyncMethodToPromise(request.get, "http://google.com", options);
 
