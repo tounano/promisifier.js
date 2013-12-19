@@ -15,7 +15,7 @@
     "promisify"
   ],
   "repository": "https://github.com/tounano/promisifier.js.git",
-  "main": "index",
+  "main": "promisifier",
   "engines": {
     "node": ">= 0.8.0"
   },
