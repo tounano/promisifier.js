@@ -1,0 +1,23 @@
+{
+  "name": "promisifier",
+  "description": "A simple callback that turns every Async function into promise.",
+  "version": "0.1.1",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "dependencies": {
+    "when": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "promisify"
+  ],
+  "repository": "https://github.com/tounano/promisifier.js.git",
+  "main": "index",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT"
+}
