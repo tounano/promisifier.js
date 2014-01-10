@@ -1,7 +1,7 @@
 {
   "name": "promisifier",
   "description": "A simple callback that turns every Async function into promise.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "ClickHere <js@clickhere.co.il>",
   "dependencies": {
     "when": "2.7.x"
